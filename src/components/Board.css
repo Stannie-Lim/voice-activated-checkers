@@ -1,0 +1,89 @@
+.cell {
+	height: 50px;
+	width: 50px;
+	border: 1px solid black;
+}
+
+.row {
+	display: flex;
+}
+
+.crown {
+	height: 40px;
+	width: 40px;
+}
+
+.highlighted {
+	background-color: yellow;
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.one,
+.two {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+
+.one {
+	background-color: red;
+}
+
+.two {
+	background-color: blue;
+}
+
+.coordinates {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3rem;
+	height: 50px;
+	width: 50px;
+	border: 1px solid transparent;
+}
+
+.turn {
+	text-align: center;
+}
+
+.king {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.black {
+	background-color: black;
+}
+
+/* animations */
+.blink-1 {
+	-webkit-animation: blink-1 0.6s both;
+	animation: blink-1 0.6s both;
+}
+
+@-webkit-keyframes blink-1 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes blink-1 {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
