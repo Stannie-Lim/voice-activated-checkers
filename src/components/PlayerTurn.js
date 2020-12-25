@@ -11,7 +11,7 @@ const PlayerTurn = ({ playerTurn }) => {
 
 	return (
 		<h1 className={`turn ${blink ? 'blink-1' : ''}`}>
-			Player {playerTurn}'s move
+			{playerTurn === 1 ? 'Red' : 'Blue'}'s move
 		</h1>
 	);
 };

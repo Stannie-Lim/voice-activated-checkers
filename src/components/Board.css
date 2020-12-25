@@ -20,6 +20,10 @@
 	border-radius: 50px;
 }
 
+.main {
+	display: flex;
+}
+
 .one,
 .two {
 	height: 50px;
